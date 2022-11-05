@@ -105,3 +105,6 @@ def load_df_to_warehouse(conn, df, table):
 
 load_df_to_warehouse(conn, df, 'public.orders')
 
+
+
+
