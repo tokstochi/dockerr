@@ -11,4 +11,4 @@ RUN pip3 install -r requirements.txt
 COPY app.py ./
 
 #setting your CMD to the handler filename.function name
-CMD | "app.handler" |
+CMD [ "app.handler" ]
